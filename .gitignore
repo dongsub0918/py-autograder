@@ -1,0 +1,21 @@
+# --- Student data: never commit ---
+# Submissions (named <canvas id>.py) and graded output (Canvas IDs + scores) are student records.
+discussion-*/submissions/
+discussion-*/results/
+# Answer keys
+discussion-*/solution.py
+# Canvas gradebook exports / import files (names, SIS IDs, grades)
+*Grades-*.csv
+canvas_import*.csv
+
+# --- Environment & caches ---
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
